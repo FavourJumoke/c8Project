@@ -11,7 +11,7 @@ const Notification = () => {
             <p className='font-medium'> Awesome!</p>
             <p className='font-medium'> you have planned a meal in a week</p>
         </div>
-        <button className=" inline-block mt-3 bg-blue-500 text-white  hover:bg-blue-700 font-sans-medium  py-2 px-4 rounded">
+        <button onclick={mealpanpage} className=" inline-block mt-3 bg-blue-500 text-white  hover:bg-blue-700 font-sans-medium  py-2 px-4 rounded">
                 Go to meal plan
         </button>
     </>
